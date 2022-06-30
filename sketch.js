@@ -7,7 +7,7 @@ function setup() {
 
 function draw() 
 {
-  background(250);
+  background(50);
   //box.fill(blue);
 
   if (keyDown(LEFT_ARROW)){
