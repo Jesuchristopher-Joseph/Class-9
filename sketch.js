@@ -3,12 +3,12 @@ function setup() {
   createCanvas(400,400);
 
   box = createSprite(200,200,30,30);
-  box.fill(blue);
 }
 
 function draw() 
 {
   background(30);
+  box.fill(blue);
 
   if (keyDown(LEFT_ARROW)){
     box.x = box.x -5;
