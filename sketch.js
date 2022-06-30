@@ -2,12 +2,12 @@ var box
 function setup() {
   createCanvas(400,400);
 
-  box = createSprite(200,200,30,30);
+  box = createSprite(200,200,40,40);
 }
 
 function draw() 
 {
-  background(50);
+  background(40);
   //box.fill(blue);
 
   if (keyDown(LEFT_ARROW)){
